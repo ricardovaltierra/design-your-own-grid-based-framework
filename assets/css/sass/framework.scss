@@ -17,7 +17,7 @@ $gutter-width: 1%;
 
 .button {
   border-radius: 0.2em;
-  @extend .d-inline;
+  @extend .display-inline;
   @extend .box-shadow;
   text-transform: capitalize;
   font-size: 1em;
@@ -30,7 +30,7 @@ $gutter-width: 1%;
   border: none;
 }
 
-.d-inline {
+.display-inline {
   display: inline;
 }
 
@@ -42,8 +42,16 @@ $gutter-width: 1%;
   display: block;
 }
 
+.txt-alg-center {
+  text-align: center;
+}
+
 .box-shadow {
   box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 body {
