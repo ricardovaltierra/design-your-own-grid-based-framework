@@ -1,4 +1,27 @@
-li {
-  list-style: none; }
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
-/*# sourceMappingURL=style.css.map */
+.text-font-primary {
+  color: #ce973e;
+}
+
+.text-font-secondary {
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.logo img {
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.navbar-ul {
+  margin: auto;
+}
+
+.navbar-ul li {
+  font-weight: bolder;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 1.1em;
+}

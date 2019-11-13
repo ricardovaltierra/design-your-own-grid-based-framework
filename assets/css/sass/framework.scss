@@ -12,6 +12,15 @@ $typekit-green: #99cc00;
   padding-right: $gutter-width;
 }
 
+%reset {
+  list-style-type: disc;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -19,6 +28,14 @@ body {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  @extend %reset;
 }
 
 .max-width {
