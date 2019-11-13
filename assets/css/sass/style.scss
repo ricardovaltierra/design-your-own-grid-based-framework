@@ -88,6 +88,11 @@ nav {
   background-color: $color-info;
 }
 
+.button-primary {
+  color: #eee;
+  background-color: $color-primary;
+}
+
 .title-h2 {
   font-weight: lighter;
   font-size: 2.25rem;
@@ -110,5 +115,39 @@ nav {
   line-height: 1.88;
 }
 
+.curriculum-details {
+  background-color: $color-background-section;
+  h3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  img {
+    padding-top: 10px;
+    height: 160px;
+    width: 160px;
+  }
+}
 
+.curriculum-details-img {
+  justify-content: center;
+  h3 {
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
 
+  div {
+    background-color: white;
+    width: 254px;
+    box-shadow: 1px 7px 16px 1px rgba(0,0,0,0.05);
+    margin-bottom: 30px;
+    margin-left: 30px;
+  }
+}
+
+.success-stories {
+  background-image: linear-gradient(to bottom, #fff, #eee);
+  h3 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
