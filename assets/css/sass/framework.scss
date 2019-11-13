@@ -1,6 +1,14 @@
 $grid-1: 8.3%;
 $gutter-width: 1%; 
 
+.background-yellow {
+  background-color: yellow;
+}
+
+.background-cyan {
+  background-color: cyan;
+}
+
 .padding-defaut {
   padding-left: $gutter-width;
   padding-right: $gutter-width;

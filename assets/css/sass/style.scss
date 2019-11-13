@@ -1,6 +1,7 @@
 $color-primary: #ce973e;
 $color-primary_light: #cc9543;
 $color-secondary: rgba(74,74,74,0.7);
+$color-semi-black: #4a4a4a;
 $color-info: #6abfc3;
 $background-image: linear-gradient(to bottom, #fff, #eee);
 $color-background-section: #f3f3f3;
@@ -23,6 +24,10 @@ nav {
 
 .text-font-secondary {
 	color: $color-secondary;
+}
+
+.text-semi-black {
+  color: $color-semi-black;
 }
 
 .logo img {
@@ -72,6 +77,12 @@ nav {
   }
 }
 
+#how-it-works {
+    img {
+      height: 165px;
+    }
+}
+
 .button-secondary {
   color: #eee;
   background-color: $color-info;
@@ -84,7 +95,20 @@ nav {
   margin-top: 30px;
 }
 
+.title-h3 {
+  @extend .text-semi-black;
+  font-size: 1.5rem;
+}
+
+.title-h4 {
+  @extend .text-semi-black;  
+}
+
 .paragraph {
   font-size: 1.125rem;
   letter-spacing: 0.2px;
+  line-height: 1.88;
 }
+
+
+

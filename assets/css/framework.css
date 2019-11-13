@@ -1,7 +1,12 @@
+.background-yellow {
+  background-color: yellow; }
+
+.background-cyan {
+  background-color: cyan; }
+
 .padding-defaut {
   padding-left: 1%;
-  padding-right: 1%;
-}
+  padding-right: 1%; }
 
 ul {
   list-style-type: disc;
@@ -9,8 +14,7 @@ ul {
   margin-block-end: 0;
   margin-inline-start: 0;
   margin-inline-end: 0;
-  padding-inline-start: 0;
-}
+  padding-inline-start: 0; }
 
 .button {
   border-radius: 0.2em;
@@ -22,257 +26,194 @@ ul {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: none;
-}
+  border: none; }
 
 .display-inline, .button {
-  display: inline;
-}
+  display: inline; }
 
 .display-inline-block {
-  display: inline-block;
-}
+  display: inline-block; }
 
 .display-block {
-  display: block;
-}
+  display: block; }
 
 .txt-alg-center {
-  text-align: center;
-}
+  text-align: center; }
 
 .box-shadow, .button {
-  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5);
-}
+  box-shadow: 0 0.05em 0.25em 0 rgba(0, 0, 0, 0.5); }
 
 .margin-auto {
-  margin: auto;
-}
+  margin: auto; }
 
 body {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 a {
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 li {
-  list-style: none;
-}
+  list-style: none; }
 
 .max-width {
   max-width: 1440px;
-  margin: auto;
-}
+  margin: auto; }
 
 .container_12 {
-  max-width: 1440px;
-}
+  max-width: 1440px; }
 
-.navbar, .display-flex {
+.display-flex, .navbar {
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .navbar {
   text-align: center;
-  justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .default_grid_12 {
-  width: 99.6%;
-}
+  width: 99.6%; }
 
 .default_grid_11 {
-  width: 91.3%;
-}
+  width: 91.3%; }
 
 .default_grid_10 {
-  width: 83%;
-}
+  width: 83%; }
 
 .default_grid_9 {
-  width: 74.7%;
-}
+  width: 74.7%; }
 
 .default_grid_8 {
-  width: 66.4%;
-}
+  width: 66.4%; }
 
 .default_grid_7 {
-  width: 58.1%;
-}
+  width: 58.1%; }
 
 .default_grid_6 {
-  width: 49.8%;
-}
+  width: 49.8%; }
 
 .default_grid_5 {
-  width: 41.5%;
-}
+  width: 41.5%; }
 
 .default_grid_4 {
-  width: 33.2%;
-}
+  width: 33.2%; }
 
 .default_grid_3 {
-  width: 24.9%;
-}
+  width: 24.9%; }
 
 .default_grid_2 {
-  width: 16.6%;
-}
+  width: 16.6%; }
 
 .default_grid_1 {
-  width: 8.3%;
-}
+  width: 8.3%; }
 
 @media (min-width: 1024px) {
   .lap_grid_12 {
-    width: 99.6%;
-  }
+    width: 99.6%; }
 
   .lap_grid_11 {
-    width: 91.3%;
-  }
+    width: 91.3%; }
 
   .lap_grid_10 {
-    width: 83%;
-  }
+    width: 83%; }
 
   .lap_grid_9 {
-    width: 74.7%;
-  }
+    width: 74.7%; }
 
   .lap_grid_8 {
-    width: 66.4%;
-  }
+    width: 66.4%; }
 
   .lap_grid_7 {
-    width: 58.1%;
-  }
+    width: 58.1%; }
 
   .lap_grid_6 {
-    width: 49.8%;
-  }
+    width: 49.8%; }
 
   .lap_grid_5 {
-    width: 41.5%;
-  }
+    width: 41.5%; }
 
   .lap_grid_4 {
-    width: 33.2%;
-  }
+    width: 33.2%; }
 
   .lap_grid_3 {
-    width: 24.9%;
-  }
+    width: 24.9%; }
 
   .lap_grid_2 {
-    width: 16.6%;
-  }
+    width: 16.6%; }
 
   .lap_grid_1 {
-    width: 8.3%;
-  }
-}
+    width: 8.3%; } }
 @media (min-width: 768px) {
   .tab_grid_12 {
-    width: 99.6%;
-  }
+    width: 99.6%; }
 
   .tab_grid_11 {
-    width: 91.3%;
-  }
+    width: 91.3%; }
 
   .tab_grid_10 {
-    width: 83%;
-  }
+    width: 83%; }
 
   .tab_grid_9 {
-    width: 74.7%;
-  }
+    width: 74.7%; }
 
   .tab_grid_8 {
-    width: 66.4%;
-  }
+    width: 66.4%; }
 
   .tab_grid_7 {
-    width: 58.1%;
-  }
+    width: 58.1%; }
 
   .tab_grid_6 {
-    width: 49.8%;
-  }
+    width: 49.8%; }
 
   .tab_grid_5 {
-    width: 41.5%;
-  }
+    width: 41.5%; }
 
   .tab_grid_4 {
-    width: 33.2%;
-  }
+    width: 33.2%; }
 
   .tab_grid_3 {
-    width: 24.9%;
-  }
+    width: 24.9%; }
 
   .tab_grid_2 {
-    width: 16.6%;
-  }
+    width: 16.6%; }
 
   .tab_grid_1 {
-    width: 8.3%;
-  }
-}
+    width: 8.3%; } }
 @media (min-width: 425px) {
   .mobL_grid_12 {
-    width: 99.6%;
-  }
+    width: 99.6%; }
 
   .mobL_grid_11 {
-    width: 91.3%;
-  }
+    width: 91.3%; }
 
   .mobL_grid_10 {
-    width: 83%;
-  }
+    width: 83%; }
 
   .mobL_grid_9 {
-    width: 74.7%;
-  }
+    width: 74.7%; }
 
   .mobL_grid_8 {
-    width: 66.4%;
-  }
+    width: 66.4%; }
 
   .mobL_grid_7 {
-    width: 58.1%;
-  }
+    width: 58.1%; }
 
   .mobL_grid_6 {
-    width: 49.8%;
-  }
+    width: 49.8%; }
 
   .mobL_grid_5 {
-    width: 41.5%;
-  }
+    width: 41.5%; }
 
   .mobL_grid_4 {
-    width: 33.2%;
-  }
+    width: 33.2%; }
 
   .mobL_grid_3 {
-    width: 24.9%;
-  }
+    width: 24.9%; }
 
   .mobL_grid_2 {
-    width: 16.6%;
-  }
+    width: 16.6%; }
 
   .mobL_grid_1 {
-    width: 8.3%;
-  }
-}
+    width: 8.3%; } }
+
+/*# sourceMappingURL=framework.css.map */
