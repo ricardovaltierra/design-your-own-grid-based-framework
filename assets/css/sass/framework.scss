@@ -1,11 +1,5 @@
 $grid-1: 8.3%;
 $gutter-width: 1%; 
-$typekit-green: #99cc00;
-
-.example {
-  background-color: $typekit-green;
-  border: 1px black solid;
-}
 
 .padding-defaut {
   padding-left: $gutter-width;
@@ -19,6 +13,37 @@ $typekit-green: #99cc00;
   margin-inline-start: 0;
   margin-inline-end: 0;
   padding-inline-start: 0;
+}
+
+.button {
+  border-radius: 0.2em;
+  @extend .d-inline;
+  @extend .box-shadow;
+  text-transform: capitalize;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  padding: 1rem 3.5rem;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.display-inline-block {
+  display: inline-block;
+}
+
+.display-block {
+  display: block;
+}
+
+.box-shadow {
+  box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
 }
 
 body {
@@ -47,16 +72,19 @@ ul {
 	max-width: 1440px;
 }
 
-.display-flex {
+%display-flex {
   display: flex;
   flex-wrap: wrap;
 }
 
+.display-flex {
+  @extend %display-flex;
+}
+
 .navbar {
-  display: flex;
+  @extend %display-flex;
   text-align: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  justify-content: space-between;  
 }
 
 .default_grid_12 {
