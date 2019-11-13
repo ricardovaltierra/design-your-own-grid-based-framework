@@ -81,6 +81,11 @@ nav {
     img {
       height: 165px;
     }
+
+    p {
+      @extend .paragraph;
+      @extend .text-font-secondary;
+    }
 }
 
 .button-secondary {

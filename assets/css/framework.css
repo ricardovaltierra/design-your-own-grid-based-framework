@@ -8,6 +8,10 @@
   padding-left: 1%;
   padding-right: 1%; }
 
+.margin-left-right {
+  margin-left: 1px;
+  margin-right: 1px; }
+
 ul {
   list-style-type: disc;
   margin-block-start: 0;
