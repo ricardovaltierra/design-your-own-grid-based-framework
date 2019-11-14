@@ -131,11 +131,11 @@ nav {
 footer {
   align-items: center;
   justify-content: center;
-  height: 277px; }
+  height: 227px; }
   footer div {
     align-items: center;
     justify-content: center;
-    height: 277px; }
+    height: 100%; }
   footer li {
     text-align: left;
     line-height: 1.8; }
@@ -162,5 +162,32 @@ footer {
 
   .footer-logo {
     display: none; } }
+@media (max-width: 425px) {
+  header {
+    position: fixed;
+    background-color: white;
+    top: 0; }
+
+  .navbar {
+    margin-bottom: unset; }
+
+  main {
+    margin-top: 120px; }
+
+  .mobile-hidden {
+    display: none; }
+
+  footer {
+    height: 70px; }
+
+  .margin-left-right {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .burger img {
+    padding-left: 156px; }
+
+  .curriculum-details-img div {
+    margin-left: unset; } }
 
 /*# sourceMappingURL=style.css.map */
