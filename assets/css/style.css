@@ -97,14 +97,6 @@ nav {
   padding-bottom: 1px;
 }
 
-.curriculum-details-img div {
-  background-color: white;
-  width: 254px;
-  box-shadow: 1px 7px 16px 1px rgba(0, 0, 0, 0.05);
-  margin-bottom: 30px;
-  margin-left: 30px;
-}
-
 .success-stories {
   background-image: linear-gradient(to bottom, #fff, #eee);
 }
@@ -191,6 +183,14 @@ footer .navbar-ul {
 #how-it-works p,
 .navbar-ul a {
   color: rgba(74, 74, 74, 0.7);
+}
+
+.curriculum-details-img div {
+  background-color: white;
+  width: 254px;
+  box-shadow: 1px 7px 16px 1px rgba(0, 0, 0, 0.05);
+  margin-bottom: 30px;
+  margin-left: 30px;
 }
 
 .navbar-ul li {
