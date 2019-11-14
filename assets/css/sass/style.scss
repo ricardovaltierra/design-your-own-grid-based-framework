@@ -197,9 +197,11 @@ footer {
   div {
     align-items: center;
     justify-content: center;
-    height: 277px;
-    img {      
-      
-    }
+    height: 277px;    
+  }
+  li {
+    text-align: left;
+    line-height: 1.8;
   }
 }
+
