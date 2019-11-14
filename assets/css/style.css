@@ -14,12 +14,6 @@ nav {
   color: #ce973e;
 }
 
-.text-font-secondary,
-#how-it-works p,
-.navbar-ul a {
-  color: rgba(74, 74, 74, 0.7);
-}
-
 .text-semi-black,
 .title-h4,
 .title-h3 {
@@ -35,7 +29,7 @@ nav {
   margin: auto;
 }
 
-.dropdown-toggle:after {
+.dropdown-toggle::after {
   display: inline-block;
   margin-left: 12px;
   vertical-align: 0.255em;
@@ -77,13 +71,6 @@ nav {
 
 .title-h3 {
   font-size: 1.5rem;
-}
-
-.paragraph,
-#how-it-works p {
-  font-size: 1.125rem;
-  letter-spacing: 0.2px;
-  line-height: 1.88;
 }
 
 .curriculum-details {
@@ -191,6 +178,19 @@ footer .navbar-ul {
   padding-top: 30px;
   width: 45px;
   padding-left: 200px;
+}
+
+.paragraph,
+#how-it-works p {
+  font-size: 1.125rem;
+  letter-spacing: 0.2px;
+  line-height: 1.88;
+}
+
+.text-font-secondary,
+#how-it-works p,
+.navbar-ul a {
+  color: rgba(74, 74, 74, 0.7);
 }
 
 .navbar-ul li {
