@@ -158,7 +158,7 @@ ul {
 }
 
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
 
   .lap_grid_12 {
     width: $grid-1*12;
@@ -209,7 +209,7 @@ ul {
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
   .tab_grid_12 {
     width: $grid-1*12;
@@ -260,7 +260,7 @@ ul {
   }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
 
   .mobL_grid_12 {
     width: $grid-1*12;

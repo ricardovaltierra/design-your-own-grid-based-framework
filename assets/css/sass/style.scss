@@ -203,5 +203,31 @@ footer {
     text-align: left;
     line-height: 1.8;
   }
+
+  .navbar-ul {
+    margin: unset;
+  }
 }
 
+.burger {
+  display: none;
+}
+
+.burger img {
+  padding-top: 30px;
+  width: 45px;
+  padding-left: 200px;
+}
+
+
+@media (max-width: 1024px) {
+  .header-navbar {
+    display: none;
+  }
+  .burger {
+    display: flex;
+  }
+  .footer-logo {
+    display: none;
+  }
+}
