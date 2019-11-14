@@ -4,6 +4,7 @@ linters:
 files:
     ignore:        
         - 'assets/css/framework.css' 
-        - 'assets/css/sass' 
+        - 'assets/css/sass/framework.scss'
+        - 'assets/css/sass/style.scss' 
 fixers:
     enable: true
