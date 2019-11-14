@@ -107,4 +107,13 @@ nav {
     padding-top: 60px;
     padding-bottom: 60px; }
 
+footer {
+  align-items: center;
+  justify-content: center;
+  height: 277px; }
+  footer div {
+    align-items: center;
+    justify-content: center;
+    height: 277px; }
+
 /*# sourceMappingURL=style.css.map */
