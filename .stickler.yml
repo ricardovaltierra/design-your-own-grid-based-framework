@@ -3,7 +3,7 @@ linters:
     config: 'stylelint.config.js'
 files:
     ignore:        
-        - 'assets/css/framework.css' 
+        - 'assets/css/style.css' 
         - 'assets/css/sass/framework.scss'
         - 'assets/css/sass/style.scss' 
 fixers:
