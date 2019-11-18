@@ -431,139 +431,139 @@ li {
   .display-lap-flex {
     display: flex;
   }
-  
+
   .display-lap-none {
     display: none;
   }
-  
+
   .display-lap-hidden {
     visibility: hidden;
   }
-  
+
   .margin-lap-on {
     margin: 1rem;
   }
-  
+
   .margin-lap-off {
     margin: 0.1rem;
   }
-  
+
   .margin-lap-top-on {
     margin-top: 1rem;
   }
-  
+
   .margin-lap-top-off {
     margin-top: 0.1rem;
   }
-  
+
   .margin-lap-bottom-on {
     margin-bottom: 1rem;
   }
-  
+
   .margin-lap-bottom-off {
     margin-bottom: 0.1rem;
   }
-  
+
   .margin-lap-left-on {
     margin-left: 1rem;
   }
-  
+
   .margin-lap-left-off {
     margin-left: 0.1rem;
   }
-  
+
   .margin-lap-right-on {
     margin-right: 1rem;
   }
-  
+
   .margin-lap-right-off {
     margin-right: 0.1rem;
   }
-  
+
   .padding-lap-on {
     padding: 1rem;
   }
-  
+
   .padding-lap-off {
     padding: 0.1rem;
   }
-  
+
   .padding-lap-top-on {
     padding-top: 1rem;
   }
-  
+
   .padding-lap-top-off {
     padding-top: 0.1rem;
   }
-  
+
   .padding-lap-bottom-on {
     padding-bottom: 1rem;
   }
-  
+
   .padding-lap-bottom-off {
     padding-bottom: 0.1rem;
   }
-  
+
   .padding-lap-left-on {
     padding-left: 1rem;
   }
-  
+
   .padding-lap-left-off {
     padding-left: 0.1rem;
   }
-  
+
   .padding-lap-right-on {
     padding-right: 1rem;
   }
-  
+
   .padding-lap-right-off {
     padding-right: 0.1rem;
   }
-  
+
   .lap_grid_12 {
     width: 99.6%;
   }
-  
+
   .lap_grid_11 {
     width: 91.3%;
   }
-  
+
   .lap_grid_10 {
     width: 83%;
   }
-  
+
   .lap_grid_9 {
     width: 74.7%;
   }
-  
+
   .lap_grid_8 {
     width: 66.4%;
   }
-  
+
   .lap_grid_7 {
     width: 58.1%;
   }
-  
+
   .lap_grid_6 {
     width: 49.8%;
   }
-  
+
   .lap_grid_5 {
     width: 41.5%;
   }
-  
+
   .lap_grid_4 {
     width: 33.2%;
   }
-  
+
   .lap_grid_3 {
     width: 24.9%;
   }
-  
+
   .lap_grid_2 {
     width: 16.6%;
   }
-  
+
   .lap_grid_1 {
     width: 8.3%;
   }
@@ -574,306 +574,306 @@ li {
   .display-tab-inline {
     display: inline;
   }
-  
+
   .display-tab-inline-block {
     display: inline-block;
   }
-  
+
   .display-tab-block {
     display: block;
   }
-  
+
   .display-tab-flex {
     display: flex;
   }
-  
+
   .display-tab-none {
     display: none;
   }
-  
+
   .display-tab-hidden {
     visibility: hidden;
   }
-  
+
   .padding-tab-on {
     padding: 1rem;
   }
-  
+
   .padding-tab-off {
     padding: 0.1rem;
   }
-  
+
   .padding-tab-top-on {
     padding-top: 1rem;
   }
-  
+
   .padding-tab-top-off {
     padding-top: 0.1rem;
   }
-  
+
   .padding-tab-bottom-on {
     padding-bottom: 1rem;
   }
-  
+
   .padding-tab-bottom-off {
     padding-bottom: 0.1rem;
   }
-  
+
   .padding-tab-left-on {
     padding-left: 1rem;
   }
-  
+
   .padding-tab-left-off {
     padding-left: 0.1rem;
   }
-  
+
   .padding-tab-right-on {
     padding-right: 1rem;
   }
-  
+
   .padding-tab-right-off {
     padding-right: 0.1rem;
   }
-  
+
   .margin-tab-on {
     margin: 1rem;
   }
-  
+
   .margin-tab-off {
     margin: 0.1rem;
   }
-  
+
   .margin-tab-top-on {
     margin-top: 1rem;
   }
-  
+
   .margin-tab-top-off {
     margin-top: 0.1rem;
   }
-  
+
   .margin-tab-bottom-on {
     margin-bottom: 1rem;
   }
-  
+
   .margin-tab-bottom-off {
     margin-bottom: 0.1rem;
   }
-  
+
   .margin-tab-left-on {
     margin-left: 1rem;
   }
-  
+
   .margin-tab-left-off {
     margin-left: 0.1rem;
   }
-  
+
   .margin-tab-right-on {
     margin-right: 1rem;
   }
-  
+
   .margin-tab-right-off {
     margin-right: 0.1rem;
   }
-  
+
   .tab_grid_12 {
     width: 99.6%;
   }
-  
+
   .tab_grid_11 {
     width: 91.3%;
   }
-  
+
   .tab_grid_10 {
     width: 83%;
   }
-  
+
   .tab_grid_9 {
     width: 74.7%;
   }
-  
+
   .tab_grid_8 {
     width: 66.4%;
   }
-  
+
   .tab_grid_7 {
     width: 58.1%;
   }
-  
+
   .tab_grid_6 {
     width: 49.8%;
   }
-  
+
   .tab_grid_5 {
     width: 41.5%;
   }
-  
+
   .tab_grid_4 {
     width: 33.2%;
   }
-  
+
   .tab_grid_3 {
     width: 24.9%;
   }
-  
+
   .tab_grid_2 {
     width: 16.6%;
   }
-  
+
   .tab_grid_1 {
     width: 8.3%;
   }
 }
 
 @media (max-width: 425px) {
-  
+
   .display-mobL-inline {
     display: inline;
   }
-  
+
   .display-mobL-inline-block {
     display: inline-block;
   }
-  
+
   .display-mobL-block {
     display: block;
   }
-  
+
   .display-mobL-flex {
     display: flex;
   }
-  
+
   .display-mobL-none {
     display: none;
   }
-  
+
   .display-mobL-hidden {
     visibility: hidden;
   }
-  
+
   .padding-mobL-on {
     padding: 1rem;
   }
-  
+
   .padding-mobL-off {
     padding: 0.1rem;
   }
-  
+
   .padding-mobL-top-on {
     padding-top: 1rem;
   }
-  
+
   .padding-mobL-top-off {
     padding-top: 0.1rem;
   }
-  
+
   .padding-mobL-bottom-on {
     padding-bottom: 1rem;
   }
-  
+
   .padding-mobL-bottom-off {
     padding-bottom: 0.1rem;
   }
-  
+
   .padding-mobL-left-on {
     padding-left: 1rem;
   }
-  
+
   .padding-mobL-left-off {
     padding-left: 0.1rem;
   }
-  
+
   .padding-mobL-right-on {
     padding-right: 1rem;
   }
-  
+
   .padding-mobL-right-off {
     padding-right: 0.1rem;
   }
-  
+
   .margin-mobL-on {
     margin: 1rem;
   }
-  
+
   .margin-mobL-off {
     margin: 0.1rem;
   }
-  
+
   .margin-mobL-top-on {
     margin-top: 1rem;
   }
-  
+
   .margin-mobL-top-off {
     margin-top: 0.1rem;
   }
-  
+
   .margin-mobL-bottom-on {
     margin-bottom: 1rem;
   }
-  
+
   .margin-mobL-bottom-off {
     margin-bottom: 0.1rem;
   }
-  
+
   .margin-mobL-left-on {
     margin-left: 1rem;
   }
-  
+
   .margin-mobL-left-off {
     margin-left: 0.1rem;
   }
-  
+
   .margin-mobL-right-on {
     margin-right: 1rem;
   }
-  
+
   .margin-mobL-right-off {
     margin-right: 0.1rem;
   }
-  
+
   .mobL_grid_12 {
     width: 99.6%;
   }
-  
+
   .mobL_grid_11 {
     width: 91.3%;
   }
-  
+
   .mobL_grid_10 {
     width: 83%;
   }
-  
+
   .mobL_grid_9 {
     width: 74.7%;
   }
-  
+
   .mobL_grid_8 {
     width: 66.4%;
   }
-  
+
   .mobL_grid_7 {
     width: 58.1%;
   }
-  
+
   .mobL_grid_6 {
-  width: 49.8%;
+    width: 49.8%;
   }
-  
+
   .mobL_grid_5 {
     width: 41.5%;
   }
-  
+
   .mobL_grid_4 {
     width: 33.2%;
   }
-  
+
   .mobL_grid_3 {
     width: 24.9%;
   }
-  
+
   .mobL_grid_2 {
     width: 16.6%;
   }
-  
+
   .mobL_grid_1 {
     width: 8.3%;
   }
