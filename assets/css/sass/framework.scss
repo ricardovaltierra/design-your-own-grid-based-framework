@@ -105,7 +105,7 @@ $gutter-width: 1%;
 
 .button {
   border-radius: 0.2em;
-  @extend .display-inline;
+  @extend .display-default-inline;
   @extend .box-shadow;
   text-transform: capitalize;
   font-size: 1em;
@@ -178,8 +178,6 @@ $gutter-width: 1%;
 .align-items-left {
   align-items: left;
 }
-
-
 
 .box-shadow {
   box-shadow: 0 0.05em 0.25em 0 rgba(0,0,0,0.5);
@@ -326,6 +324,59 @@ ul {
 
 .padding-default-right-off {
   padding-right: 0.1rem;
+}
+
+// border properties
+// 1px
+
+.border-default-top-on {
+  border-top: 1px solid black; 
+}
+
+.border-default-bottom-on {
+  border-bottom: 1px solid black; 
+}
+
+.border-default-left-on {
+  border-left: 1px solid black; 
+}
+
+.border-default-on {
+  border-right: 1px solid black; 
+}
+
+.border-default-on {
+  border: 1px solid black;
+}
+
+// 0.1px
+
+.border-default-top-off {
+  border: none;
+}
+
+.border-default-bottom-off {
+  border: none;
+}
+
+.border-default-left-off {
+  border: none;
+}
+
+.border-default-right-off {
+  border: none;
+}
+
+.border-default-off {
+  border: none;
+}
+
+.border-box-round {
+  border-radius: 5%;
+}
+
+.border-box-circle {
+  border-radius: 50%;
 }
 
 .navbar {
