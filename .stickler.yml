@@ -1,0 +1,9 @@
+linters:
+  stylelint:
+    config: 'stylelint.config.js'
+files:
+    ignore:        
+        - 'assets/css/sass/framework.scss'
+        - 'assets/css/sass/style.scss' 
+fixers:
+    enable: true
