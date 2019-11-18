@@ -182,6 +182,13 @@ ul {
   margin: auto;
 }
 
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -376,52 +383,52 @@ li {
   justify-content: space-between;
 }
 
-.default_grid_12 {
+.col_12 {
   width: 99.6%;
 }
 
-.default_grid_11 {
+.col_11 {
   width: 91.3%;
 }
 
-.default_grid_10 {
+.col_10 {
   width: 83%;
 }
 
-.default_grid_9 {
+.col_9 {
   width: 74.7%;
 }
 
-.default_grid_8 {
+.col_8 {
   width: 66.4%;
 }
 
-.default_grid_7 {
+.col_7 {
   width: 58.1%;
 }
 
-.default_grid_6 {
+.col_6 {
   width: 49.8%;
 }
 
-.default_grid_5 {
+.col_5 {
   width: 41.5%;
   height: 100%;
 }
 
-.default_grid_4 {
+.col_4 {
   width: 33.2%;
 }
 
-.default_grid_3 {
+.col_3 {
   width: 24.9%;
 }
 
-.default_grid_2 {
+.col_2 {
   width: 16.6%;
 }
 
-.default_grid_1 {
+.col_1 {
   width: 8.3%;
 }
 
@@ -530,51 +537,51 @@ li {
     padding-right: 0.1rem;
   }
 
-  .lap_grid_12 {
+  .col_lg_12 {
     width: 99.6%;
   }
 
-  .lap_grid_11 {
+  .col_lg_11 {
     width: 91.3%;
   }
 
-  .lap_grid_10 {
+  .col_lg_10 {
     width: 83%;
   }
 
-  .lap_grid_9 {
+  .col_lg_9 {
     width: 74.7%;
   }
 
-  .lap_grid_8 {
+  .col_lg_8 {
     width: 66.4%;
   }
 
-  .lap_grid_7 {
+  .col_lg_7 {
     width: 58.1%;
   }
 
-  .lap_grid_6 {
+  .col_lg_6 {
     width: 49.8%;
   }
 
-  .lap_grid_5 {
+  .col_lg_5 {
     width: 41.5%;
   }
 
-  .lap_grid_4 {
+  .col_lg_4 {
     width: 33.2%;
   }
 
-  .lap_grid_3 {
+  .col_lg_3 {
     width: 24.9%;
   }
 
-  .lap_grid_2 {
+  .col_lg_2 {
     width: 16.6%;
   }
 
-  .lap_grid_1 {
+  .col_lg_1 {
     width: 8.3%;
   }
 }
@@ -684,51 +691,51 @@ li {
     margin-right: 0.1rem;
   }
 
-  .tab_grid_12 {
+  .col_md_12 {
     width: 99.6%;
   }
 
-  .tab_grid_11 {
+  .col_md_11 {
     width: 91.3%;
   }
 
-  .tab_grid_10 {
+  .col_md_10 {
     width: 83%;
   }
 
-  .tab_grid_9 {
+  .col_md_9 {
     width: 74.7%;
   }
 
-  .tab_grid_8 {
+  .col_md_8 {
     width: 66.4%;
   }
 
-  .tab_grid_7 {
+  .col_md_7 {
     width: 58.1%;
   }
 
-  .tab_grid_6 {
+  .col_md_6 {
     width: 49.8%;
   }
 
-  .tab_grid_5 {
+  .col_md_5 {
     width: 41.5%;
   }
 
-  .tab_grid_4 {
+  .col_md_4 {
     width: 33.2%;
   }
 
-  .tab_grid_3 {
+  .col_md_3 {
     width: 24.9%;
   }
 
-  .tab_grid_2 {
+  .col_md_2 {
     width: 16.6%;
   }
 
-  .tab_grid_1 {
+  .col_md_1 {
     width: 8.3%;
   }
 }
@@ -838,51 +845,51 @@ li {
     margin-right: 0.1rem;
   }
 
-  .mobL_grid_12 {
+  .col_sm_12 {
     width: 99.6%;
   }
 
-  .mobL_grid_11 {
+  .col_sm_11 {
     width: 91.3%;
   }
 
-  .mobL_grid_10 {
+  .col_sm_10 {
     width: 83%;
   }
 
-  .mobL_grid_9 {
+  .col_sm_9 {
     width: 74.7%;
   }
 
-  .mobL_grid_8 {
+  .col_sm_8 {
     width: 66.4%;
   }
 
-  .mobL_grid_7 {
+  .col_sm_7 {
     width: 58.1%;
   }
 
-  .mobL_grid_6 {
+  .col_sm_6 {
     width: 49.8%;
   }
 
-  .mobL_grid_5 {
+  .col_sm_5 {
     width: 41.5%;
   }
 
-  .mobL_grid_4 {
+  .col_sm_4 {
     width: 33.2%;
   }
 
-  .mobL_grid_3 {
+  .col_sm_3 {
     width: 24.9%;
   }
 
-  .mobL_grid_2 {
+  .col_sm_2 {
     width: 16.6%;
   }
 
-  .mobL_grid_1 {
+  .col_sm_1 {
     width: 8.3%;
   }
 }
